@@ -8,9 +8,9 @@ defmodule PlugResponseHeader.Mixfile do
       elixir: ">= 1.0.4",
       build_embedded: Mix.env == :prod,
       start_permanent: Mix.env == :prod,
-      deps: deps,
+      deps: deps(),
       description: "This plug allows manipulation of HTTP response headers",
-      package: package,
+      package: package(),
     ]
   end
 
